@@ -1,0 +1,131 @@
+/* navbar */
+* {
+  font-family: "Rubik";
+}
+body {
+  margin: 0;
+  padding: 0;
+  /* background-color: #000000; */
+  /* background-image: linear-gradient(315deg, rgba(0, 0, 0, 0.3) 0%, #414141 74%); */
+  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
+  font-size: 1rem;
+}
+.particles {
+  position: absolute;
+  z-index: -2;
+}
+
+input,
+select {
+  text-align: center;
+  background: rgb(0, 17, 92);
+  color: white;
+  border: 1px solid white;
+  /* width: 150px; */
+}
+
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+select:focus,
+input:focus {
+  outline: none !important;
+  border: 1px solid rgba(14, 80, 155, 0.295);
+  box-shadow: 0 0 4px #f7f7f7;
+}
+::placeholder {
+  color: white;
+  /* text-align: center; */
+  opacity: 0.4; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: black;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: black;
+}
+/* sign in page */
+
+.sign-in-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.signin-form {
+  height: 60vh;
+  width: 50%;
+  background: rgba(0, 32, 92, 0.938);
+  color: rgb(235, 235, 235);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  border-radius: 20px;
+  box-shadow: 0px 0px 40px rgb(4, 29, 114);
+}
+.signup-form {
+  height: 50vh;
+  width: 100%;
+  background: rgba(47, 47, 47, 0.409);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* color: rgb(231, 231, 231); */
+}
+
+form .input-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+
+  /* color: rgb(231, 231, 231); */
+  color: rgb(231, 231, 231);
+}
+
+form .input-container .icon {
+  position: absolute;
+  margin-top: 15px;
+  font-size: 20px;
+  padding-left: 20px;
+  color: rgb(231, 231, 231);
+}
+
+form .input-container .fa-lock {
+  font-size: 28px;
+}
+
+form .input-container .sign-in-input {
+  height: 30px;
+  width: 400px;
+  border-radius: 10px;
+  border: none;
+  background: rgba(0, 0, 0, 0.281);
+  text-indent: 55px;
+  padding-top: 23px;
+  font-size: 18px;
+  text-align: left;
+}
+
+form .input-container label {
+  position: absolute;
+  opacity: 0.6;
+  margin-left: 57px;
+  font-size: 18px;
+  padding-top: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.img-div-home {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+}
