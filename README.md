@@ -23,7 +23,8 @@ Site is not currently deployed, to view clone the application
 ```
 git clone https://github.com/allonahmed/Inventory-HQ-Web-App.git
 ```
-then : 
+Then navigate to the client and install the dependencies: 
 ```
 cd Inventory-HQ-Web-App/frontend && npm install
 ```
+To configure a server, simply create a MySql session on your local and update the connection settings in backend/server.js
