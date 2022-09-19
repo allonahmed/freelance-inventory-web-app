@@ -1,13 +1,13 @@
 # Inventory-HQ-Web-App
 Web Application written in ReactJS and NodeJS. Freelance application for company in need of website that allows employees to keep track of inventory
 
-###FEATURES
+### FEATURES
 * Users can add/move/check inventory
 * Data displayed in tables that can be sorted, queried, and filtered
 * Users can create an accout and keep track of user track history
 * Admins hae access to all information
 
-###TECH STACK
+### TECH STACK
 * ReactJS
 * ExpressJS
 * React-Redux
