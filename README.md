@@ -28,3 +28,6 @@ Then navigate to the client and install the dependencies:
 cd Inventory-HQ-Web-App/frontend && npm install
 ```
 To configure a server, simply create a MySql session on your local and update the connection settings in backend/server.js
+
+### Example Images of application
+![profile page](https://i.imgur.com/29bUR2A.png)
