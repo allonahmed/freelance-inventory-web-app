@@ -17,6 +17,13 @@ Web Application written in ReactJS and NodeJS. Freelance application for company
 * Bcrypt
 * Multer
 
+### Installation Guide
+
+Site is not currently deployed, to view clone the application
 ```
 git clone https://github.com/allonahmed/Inventory-HQ-Web-App.git
+```
+then : 
+```
+cd Inventory-HQ-Web-App/frontend && npm install
 ```
