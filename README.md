@@ -16,3 +16,7 @@ Web Application written in ReactJS and NodeJS. Freelance application for company
 * Recharts
 * Bcrypt
 * Multer
+
+```
+git clone https://github.com/allonahmed/Inventory-HQ-Web-App.git
+```
